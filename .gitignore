@@ -237,3 +237,7 @@ reports/evaluation_results/
 
 # Runtime checkpoint for the online eval cron job (per-instance state).
 src/evals/online_evals/eval_checkpoint.json
+
+# Vector database files (FAISS, Chroma, etc.)
+# These are large binary files that can be regenerated from the source data.
+saved-embeddings/
